@@ -17,7 +17,7 @@ public:
 		int *have = new int[n];
 		char k;
 		int i, j,top,max=0;
-		sort(words.begin(), words.end(), compare);
+		//sort(words.begin(), words.end(), compare);
 		for (k = 'a'; k <= 'z'; k++){
 			top = 0;
 			for (i = 0; i < n; i++){
