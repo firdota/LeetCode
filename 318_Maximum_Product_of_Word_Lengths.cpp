@@ -40,6 +40,7 @@ public:
 		return max;
 	}
 };
+
 int main(){
 	Solution s;
 	vector<string> words;
